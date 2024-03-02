@@ -16,16 +16,16 @@ const Navbar = () => {
         <img src={Logo} alt="logo" />
         <div className="hiddenLinks">
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/">Menu</NavLink>
+          <NavLink to="/menu">Menu</NavLink>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/">Contact</NavLink>
         </div>
       </div>
       <div className="rightSide">
         <NavLink to="/">Home</NavLink>
-        <NavLink to="/">Menu</NavLink>
+        <NavLink to="/menu">Menu</NavLink>
         <NavLink to="/about">About</NavLink>
-        <NavLink to="/">Contact</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
         <button onClick={toggleNavbar}>
           <ReorderIcon />
         </button>
